@@ -177,13 +177,14 @@ main {
 
 .experince-list {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
 
 .experience-btn {
     position: relative;
-    right: 80px;
+    right: 30px;
     bottom: 130px;
 }
 
