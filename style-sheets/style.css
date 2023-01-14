@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header styles  */
+/* nav styles  */
+.logo h4 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
