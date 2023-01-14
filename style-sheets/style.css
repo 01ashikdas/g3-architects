@@ -175,14 +175,19 @@ main {
 
 /* architects banner  */
 
-.experinece-info {
+.experince-list {
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-/* .expirence-btn {
+
+.experience-btn {
     position: relative;
-    right: 50px;
-    bottom: 110px;
-} */
+    right: 80px;
+    bottom: 130px;
+}
+
+.experience-btn span {
+    font-size: 65px;
+    font-weight: 700;
+}
