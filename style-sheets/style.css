@@ -3,10 +3,186 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body {
+    background-color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 25px;
+    border: 0;
+    border-radius: 8px;
+}
+
 /* header styles  */
+header {
+    background-color:
+        rgba(255, 144, 14, 0.1);
+
+}
+
 /* nav styles  */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
 .logo h4 {
     color: #131313;
     font-size: 45px;
     font-weight: 700;
 }
+
+.nav-link ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link ul li {
+    list-style: none;
+}
+
+.nav-link ul li a {
+    color: #424242;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+
+/* header info  */
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 50px;
+
+}
+
+.header-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #727272;
+    margin-top: 10px;
+}
+
+.header-btn {
+    margin: 50px 0;
+}
+
+.header-banner img {
+    width: 1440px;
+    padding: 50px 240px;
+}
+
+/* header styles end  */
+
+/* main styles  */
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* feature container  */
+main {
+    margin-top: 80px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.feature-img {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.feature-img img {
+    width: 250px;
+    margin-top: 20px;
+
+}
+
+.feature-description {
+    color: #727272;
+    margin-top: 24px;
+}
+
+.feature-btn {
+    margin-top: 32px;
+}
+
+/* Feature Experince container  */
+.feature-experience {
+    margin-top: 80px;
+}
+
+.experince-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+}
+
+.experince-description {
+    margin-top: 5px;
+    color: #727272;
+}
+
+/* description items  */
+
+.feature-item {
+    width: 586px;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+    padding: 30px 42px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.feature-item-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.feature-item-description {
+    color: #727272;
+    margin-top: 10px;
+}
+
+/* architects banner  */
+
+.experinece-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .expirence-btn {
+    position: relative;
+    right: 50px;
+    bottom: 110px;
+} */
