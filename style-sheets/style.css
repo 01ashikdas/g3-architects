@@ -140,19 +140,19 @@ main {
     margin-top: 32px;
 }
 
-/* Feature Experince container  */
+/* Feature Experience container  */
 .feature-experience {
     margin-top: 80px;
 }
 
-.experince-title {
+.experience-title {
     color: #131313;
     font-size: 45px;
     font-weight: 700;
     border-left: 5px solid #FF900E;
 }
 
-.experince-description {
+.experience-description {
     margin-top: 5px;
     color: #727272;
 }
@@ -181,7 +181,7 @@ main {
 
 /* architects banner  */
 
-.experince-list {
+.experience-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -271,7 +271,8 @@ main {
     margin-bottom: 130px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .sponser-item img {
@@ -308,7 +309,9 @@ footer p {
     .nav-link ul,
     .feature,
     .feature-img,
-    .experince-list {
+    .experience-list,
+    .fact-items,
+    .sponsers-items {
         flex-direction: column;
         align-items: center;
     }
@@ -327,10 +330,14 @@ footer p {
     }
 
     .feature,
-    .experince-title,
-    .experince-description,
-    .architecers {
-        padding: 20px 40px;
+    .experience-title,
+    .experience-description,
+    .architecers,
+    .facts-title,
+    .facts-description,
+    .sponser-title,
+    .sponser-description {
+        padding: 15px 40px;
     }
 
     .feature-item {
